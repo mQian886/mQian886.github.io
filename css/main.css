@@ -2471,16 +2471,17 @@ header.header {
     margin-top: 0;
   }
 }
-/* 背景图片 
+/* 背景图片 */
 body {
-  background-image: url($body-bg-url);
+  background-image: url("/resources/img/body.webp");
   background-repeat: repeat;
   background-attachment: fixed;
-
-  @media (prefers-color-scheme: dark) {
+}
+@media (prefers-color-scheme: dark) {
+  body {
     background-image: none;
   }
-}*/
+}
 /* 选中字符颜色 */
 ::selection {
   background: highlight;
